@@ -8,4 +8,4 @@
 
 Test-1:
 <p>
-<source src="Builds/Web/index.html"/>
+<iframe src="https://mjkkaya.github.io/Unity-UI-Toolkit-Label-Autosize/Builds/Web/"></iframe>
