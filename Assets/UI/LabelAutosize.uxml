@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement style="flex-grow: 1; background-color: rgb(0, 0, 0);">
+        <engine:VisualElement name="Title" style="margin-top: 25px;">
+            <engine:Label text="Label Autosize" style="color: rgb(255, 255, 255); -unity-text-align: middle-center; -unity-font-style: bold; font-size: 67px;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="VisualElement" style="flex-grow: 1; margin-top: 25px; margin-right: 25px; margin-bottom: 25px; margin-left: 25px; justify-content: space-evenly;">
+            <engine:TextField placeholder-text="type..." style="font-size: 42px; flex-basis: 85px;" />
+            <engine:VisualElement name="VisualElement">
+                <engine:Label text="-" style="font-size: 88px; color: rgb(255, 255, 255); background-color: rgba(38, 54, 91, 0.92); -unity-text-align: middle-center;" />
+            </engine:VisualElement>
+            <engine:Button text="Fix Size" name="FixSizeManualy" style="font-size: 42px; -unity-font-style: bold; flex-basis: 85px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
