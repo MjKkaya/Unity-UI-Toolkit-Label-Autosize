@@ -5,7 +5,8 @@ using UnityEngine.UIElements;
 [RequireComponent(typeof(UIDocument))]
 public class LabelAutosize : MonoBehaviour
 {
-    private static  Vector2 _vector2Zero = new (0f, 0f);
+    private const string _autosizeLabelName = "autosize-label";
+    private static Vector2 _vector2Zero = new (0f, 0f);
 
     private Label _label;
 
@@ -13,7 +14,7 @@ public class LabelAutosize : MonoBehaviour
     {
         UIDocument uIDocument = GetComponent<UIDocument>();
         VisualElement rootElement = uIDocument.rootVisualElement;
-        _label = rootElement.Q<Label>();
+        _label = rootElement.Q<Label>(_autosizeLabelName);
         TextField _textField = rootElement.Q<TextField>();
         Button FixSizeManualy = rootElement.Q<Button>("FixSizeManualy");
         FixSizeManualy.RegisterCallback<ClickEvent>(OnClickedFixSize);
