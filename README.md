@@ -1,4 +1,4 @@
-# Unity-UI-Toolkit-Label-Autosize
+# Unity UI Toolkit Label Autosize
  Adjusts the text size based on the edges and the text length.
 
 # App
