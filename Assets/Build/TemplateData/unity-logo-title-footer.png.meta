@@ -233,7 +233,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      unity-logo-title-footer_0: -8542755722715263931
+      unity-logo-title-footer_1: -6272780919156017307
+      unity-logo-title-footer_2: -4447347127547972667
+      unity-logo-title-footer_3: 441712200320239221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

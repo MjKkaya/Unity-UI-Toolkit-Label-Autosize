@@ -17,9 +17,10 @@ MonoBehaviour:
   m_ModuleName: WebGL
   m_PlatformBuildProfile:
     rid: 439366544768106496
-  m_Scenes:
-  - m_enabled: 1
-    m_path: Assets/Scenes/SampleScene.unity
+  m_Scenes: []
+  m_ScriptingDefines: []
+  m_PlayerSettingsYaml:
+    m_Settings: []
   references:
     version: 2
     RefIds:

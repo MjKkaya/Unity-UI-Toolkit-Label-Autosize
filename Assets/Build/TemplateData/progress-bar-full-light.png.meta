@@ -158,7 +158,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      progress-bar-full-light_0: 3345865868867586216
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

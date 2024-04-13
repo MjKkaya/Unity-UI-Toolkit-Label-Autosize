@@ -158,7 +158,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      unity-logo-light_0: 7073109232284773797
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,14 +1,18 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <engine:VisualElement style="flex-grow: 1; background-color: rgb(0, 0, 0);">
-        <engine:VisualElement name="Title" style="margin-top: 25px;">
-            <engine:Label text="Label Autosize" name="title-label" style="color: rgb(255, 255, 255); -unity-text-align: middle-center; -unity-font-style: bold; font-size: 67px;" />
+    <engine:VisualElement name="label-autosize" style="flex-grow: 1; background-color: rgb(0, 0, 0);">
+        <engine:VisualElement name="label-autosize__header" style="margin-top: 25px;">
+            <engine:Label text="Label Autosize" name="header__title-label" style="color: rgb(255, 255, 255); -unity-text-align: middle-center; -unity-font-style: bold; font-size: 67px;" />
         </engine:VisualElement>
-        <engine:VisualElement name="VisualElement" style="flex-grow: 1; margin-top: 25px; margin-right: 25px; margin-bottom: 25px; margin-left: 25px; justify-content: space-evenly;">
-            <engine:TextField placeholder-text="type..." style="font-size: 42px; flex-basis: 85px;" />
-            <engine:VisualElement name="Autosize" style="flex-basis: 125px; justify-content: center;">
-                <engine:Label text="type..." name="autosize-label" style="font-size: 88px; color: rgb(21, 19, 63); background-color: rgba(140, 165, 202, 0.92); -unity-text-align: middle-left; flex-basis: 115px; -unity-font-style: normal;" />
+        <engine:VisualElement name="label-autosize__body" style="flex-grow: 1; margin-top: 25px; margin-right: 25px; margin-bottom: 25px; margin-left: 25px; justify-content: space-evenly;">
+            <engine:TextField placeholder-text="type..." name="body__text-field" style="font-size: 42px; flex-basis: 85px;" />
+            <engine:VisualElement name="body__autosize-label" style="flex-basis: 125px; justify-content: center; margin-top: 25px; margin-bottom: 25px;">
+                <engine:Label text="type..." name="autosize-label" style="font-size: 84px; background-color: rgb(25, 110, 154); color: rgb(223, 244, 255); -unity-text-align: middle-left; flex-basis: 115px;" />
             </engine:VisualElement>
-            <engine:Button text="Fix Text Size" name="FixSizeManualy" style="font-size: 42px; -unity-font-style: bold; flex-basis: 85px;" />
+            <engine:VisualElement name="label-autosize__controllers" style="align-items: stretch; justify-content: flex-start; margin-top: 25px; flex-grow: 1;">
+                <engine:Toggle label="Fix label size" name="controllers__size-toggle" value="true" style="color: rgb(255, 255, 255); font-size: 38px; flex-basis: 85px; -unity-text-align: upper-left;" />
+                <engine:Toggle label="Manual" name="controllers__manual-toggle" style="color: rgb(255, 255, 255); font-size: 38px; flex-basis: 85px;" />
+                <engine:Button text="Fix Text Size" name="controllers__fix-button" style="font-size: 42px; -unity-font-style: bold; flex-basis: 85px;" />
+            </engine:VisualElement>
         </engine:VisualElement>
     </engine:VisualElement>
 </engine:UXML>

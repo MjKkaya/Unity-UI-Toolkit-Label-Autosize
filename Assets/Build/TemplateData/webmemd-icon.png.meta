@@ -208,7 +208,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      webmemd-icon_0: 456278272652670821
+      webmemd-icon_1: -4908716374651073552
+      webmemd-icon_2: -962647505700308321
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
