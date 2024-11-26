@@ -19,20 +19,17 @@ public static class UIExtensions
     {
         if(label.contentRect.size == _vector2Zero)
         {
-            Debug.Log($"FixLabelTextSize-ContentRect size is zero({label.contentRect.size})!!!");
             return;    
         }
 
         if(label.resolvedStyle.fontSize <= 1)
         {
-            Debug.Log($"FixLabelTextSize-Font size({label.resolvedStyle.fontSize}) is less than one!!!");
             return;    
         }
 
         string afterTrim = label.text.Trim();
         if(string.IsNullOrEmpty(afterTrim)) 
         {
-            Debug.Log("FixLabelTextSize-Font is empty!");
             return;    
         }
 
@@ -58,7 +55,6 @@ public static class UIExtensions
             if(measureTextSize.x > labelContentSizeX)
             {
                 label.style.fontSize = label.resolvedStyle.fontSize - 1;
-                Debug.Log("FixLabelTextSize-measureTextSize-increase-last check!");
             }
         }
     }
